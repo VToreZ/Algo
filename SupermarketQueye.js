@@ -10,3 +10,4 @@ function queueTime(customers, n) {
   return Math.max.apply(null, timeQueue);
 }
 console.log("answer: " + queueTime([2, 2, 3, 3, 4, 4], 2));
+//Comment
