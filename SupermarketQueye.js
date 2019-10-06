@@ -5,7 +5,6 @@ function queueTime(customers, n) {
     let nowQueue = customers.splice(0, n);
     for (let j = 0; j < nowQueue.length; j++) {
       timeQueue[timeQueue.indexOf(Math.min.apply(null, timeQueue))] += nowQueue[j];
-      console.log(Math.max.apply(null, timeQueue));
     }
   }
   return Math.max.apply(null, timeQueue);
