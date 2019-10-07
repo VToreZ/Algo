@@ -12,6 +12,16 @@
     <p>la la la</p>
     <p>Feature</p>
     <p>lalala</p>
+    <div id="dateDiv" class="date">
+      Today is:
+    </div>
+    <script type="text/javascript">
+      let today = document.createElement('p');
+      let date_now = new Date();
+      today.append(date_now);
+      dateDiv.append(today);
+      today.style.color = "Green";
+    </script>
     <script src="shapeArea.js" charset="utf-8"></script>
   </body>
 </html>
