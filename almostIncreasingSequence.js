@@ -12,7 +12,7 @@ function almostIncreasingSequence(a) {
       return false;
     }
   }
-  return true;
+  return true; 
 }
 // Проверка через одного
 
